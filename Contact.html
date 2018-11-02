@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <section>
+			<form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="POST">
+						<input type="hidden" name="send_to" value="david@davidgus.com">
+				<h2>Send a Message to David Gustafson</h2>
+				<p>Fill out the form below to contact me.</p>
+			<fieldset>	
+				<legend>Your contact information</legend>
+				<label for="name">Your name </label>
+					<input type="text"
+					id="name" name="name">
+				<label for="phone">phone number </label>
+				<input type="tel"
+					id="phone" name="phone" placeholder="Don't forget your area code!">
+				<label for="email">Email</label>
+				<input type="email"
+                id="email" name="email">
+                <label for="comments">Comments:</label>
+			    <textarea id="comments" name="comments" placeholder="What is the most exciting thing you've done this week?"></textarea>
+			    
+			</fieldset>
+            <button type="submit">Submit</button>
+        </form>
+            <aside>
+                <img src="images/smallluke.jpg" alt="David as Luke with a Kylo look-alike">
+            </aside>
+        </section>        
+        
+</body>
+</html>
