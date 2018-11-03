@@ -1,17 +1,37 @@
 body {
     color:  #0B476D;
-    background-color: #A7DDA7; /* #4361B2;*/
+    background-color: #A7DDA7;  /* #4361B2;*/
     margin: 0 auto;
     width: 80%;
+    background-image: url(../images/icecrystalsvert.jpg)
+}
+nav {
+    background-color: #0B476D;
+    padding: 1rem;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #78BE97;
 }
 h1, h2 {
-    color:/* */ #398689 ;
+    color:/* */ #CEF19E;
     font-family: Helvetica, Arial, sans-serif;
-    background-color: /*#0045FF*/#CEF19E;
+    background-color: /*#0045FF*/ #398689;
+    padding-left: 5px;
 }
 blockquote {
     border: 5px solid black;
     padding: .5rem .5rem .5rem 1rem;
+    color: #398689
 }
 .site-footer {
         border: 2px solid #42352c;
