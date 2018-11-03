@@ -1,8 +1,8 @@
 body {
+    padding: 0;
+    margin: 0;
     color:  #0B476D;
-    background-color: #A7DDA7;  /* #4361B2;*/
-    margin: 0 auto;
-    width: 80%;
+    background-color: #A7DDA7;
     background-image: url(../images/icecrystalsvert.jpg)
 }
 nav {
@@ -22,6 +22,14 @@ nav a {
     margin-top: 10px;
     color: #78BE97;
 }
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    border: cyan solid;
+    /*display: flex;
+    flex-basis: 80%;
+    flex-flow: column;*/
+}
 h1, h2 {
     color:/* */ #CEF19E;
     font-family: Helvetica, Arial, sans-serif;
@@ -39,12 +47,24 @@ blockquote {
         border-top-right-radius: 10px;
         padding-left: 1rem;
 }
-section {
+section h2 {
     display: flex;
-    /*flex-flow: row nowrap;*/
+    flex-flow: row nowrap;
     padding: 1em 0;
+    border: pink solid;
 }
 form {
     flex-basis: 57%;
     /*margin-right: 10%;*/
+}
+section {
+    display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+    border: 5px solid #42352c;
+    width: 80%;
+}
+section .itemsrow {
+    /*flex-basis: 20%;*/
+    border: red dotted;
 }
