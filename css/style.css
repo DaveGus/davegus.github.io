@@ -1,19 +1,20 @@
 body {
     padding: 0;
     margin: 0;
-    color:  #0B476D;
-    background-color: #A7DDA7;
+    color:  #FFFFFD;
+    font-family: Helvetica, Arial, sans-serif;
     background-image: url(../images/icecrystalsvert.jpg)
 }
 nav {
     background-color: #0B476D;
-    padding: 1rem;
+    padding: 1rem 6rem;
 }
 nav ul {
     list-style-type: none;
 }
 nav li {
     display: inline-block;
+    margin: 0 .7rem;
 }
 nav a {
     font-family: 'Montserrat', sans-serif;
@@ -24,8 +25,8 @@ nav a {
 }
 .wrapper {
     margin: 0 auto;
-    width: 80%;
-    border: cyan solid;
+    width: 83%;
+    background-color: #71A8C2;
     /*display: flex;
     flex-basis: 80%;
     flex-flow: column;*/
@@ -33,12 +34,29 @@ nav a {
 h1, h2 {
     color:/* */ #CEF19E;
     font-family: Helvetica, Arial, sans-serif;
-    background-color: /*#0045FF*/ #398689;
     padding-left: 5px;
 }
+h1 {
+    padding: 1rem 2rem 0 2rem;
+    border: blue dashed;
+    margin: 0;
+}
+ .intro {
+    width: 100%;
+    height: 416px; 
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-image: url(../images/sunsetsmaller.jpg);
+    
+} 
+h2 {
+    display: block;
+    justify-content: center; 
+}
 blockquote {
-    border: 5px solid black;
-    padding: .5rem .5rem .5rem 1rem;
+    
+    justify-content: center;
     color: #398689
 }
 .site-footer {
@@ -62,9 +80,10 @@ section {
 	flex-flow: row nowrap;
 	justify-content: space-around;
     border: 5px solid #42352c;
-    width: 80%;
+    
 }
 section .itemsrow {
-    /*flex-basis: 20%;*/
+    flex-basis: 30%;
     border: red dotted;
+    margin: 4px;
 }
